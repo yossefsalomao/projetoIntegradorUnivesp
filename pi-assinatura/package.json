@@ -11,10 +11,13 @@
     "url": "git+https://github.com/yossefsalomao/projetoIntegradorUnivesp.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Salomão - (salomaojo)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/yossefsalomao/projetoIntegradorUnivesp/issues"
   },
-  "homepage": "https://github.com/yossefsalomao/projetoIntegradorUnivesp#readme"
+  "homepage": "https://github.com/yossefsalomao/projetoIntegradorUnivesp#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
