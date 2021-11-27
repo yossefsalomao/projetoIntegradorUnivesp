@@ -20,7 +20,7 @@ class SignatureController {
     if (!id) {
       return res
         .status(httpStatus.NOT_FOUND.status)
-        .json(new SignatureControllerError("Id not informed."));
+        .json(new SignatureControllerError("Id not informed.").message);
     } else {
       const signature = await signatureService.get(id);
 
@@ -42,7 +42,7 @@ class SignatureController {
     if (!allSignatures) {
       return res
         .status(httpStatus.NOT_FOUND.status)
-        .json(new SignatureControllerError("Not found signatures"));
+        .json(new SignatureControllerError("Not found signatures").message);
     } else {
       return res.status(httpStatus.OK.status).json(allSignatures);
     }
@@ -64,7 +64,7 @@ class SignatureController {
     } else {
       return res
         .status(httpStatus.INTERNAL_SERVER_ERROR.status)
-        .json(new SignatureControllerError("Request body not informed"));
+        .json(new SignatureControllerError("Request body not informed").message);
     }
   }
 
@@ -87,7 +87,7 @@ class SignatureController {
     } else {
       return res
         .status(httpStatus.NOT_FOUND.status)
-        .json(new SignatureControllerError("Request body or header not found"));
+        .json(new SignatureControllerError("Request body or header not found").message);
     }
   }
 
@@ -107,7 +107,7 @@ class SignatureController {
     } else {
       return res
         .status(httpStatus.INTERNAL_SERVER_ERROR.status)
-        .json(new SignatureControllerError("Requested id not found"));
+        .json(new SignatureControllerError("Requested id not found").message);
     }
   }
 }

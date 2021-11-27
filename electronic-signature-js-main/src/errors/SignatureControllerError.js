@@ -10,7 +10,11 @@ export class SignatureControllerError extends Error {
    * @param {string} paramName
    */
   constructor(paramName) {
-    super(`Signature controller error:\n${paramName}`);
+    super(`Signature controller error: ${paramName}`);
     this.name = "SignatureControllerError";
+  }
+
+  get message(){
+    return this.message;
   }
 }

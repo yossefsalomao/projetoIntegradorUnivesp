@@ -19,10 +19,10 @@ class SignatureService {
       if (signature) {
         return signature;
       } else {
-        throw new SignatureServiceError("Register not found");
+        return new SignatureServiceError("Register not found");
       }
     } else {
-      throw new SignatureServiceError("Entered id is invalid");
+      return new SignatureServiceError("Entered id is invalid");
     }
   }
 
@@ -38,7 +38,7 @@ class SignatureService {
     if (allSignatures.length > 0) {
       return allSignatures;
     } else {
-      throw new SignatureServiceError("There are no registered subscriptions");
+      return null;
     }
   }
 

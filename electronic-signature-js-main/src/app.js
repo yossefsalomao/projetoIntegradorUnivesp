@@ -1,5 +1,6 @@
 import express from "express";
 import dotenv from "dotenv";
+import path from "path";
 
 import database from "./database/Connect.js";
 import router from "./routes/index.js";
@@ -39,6 +40,7 @@ class App {
       })
     );
     this.app.use(router);
+    this.app.use(express.static(path.dirname("") + "/public"));
   }
 }
 

@@ -15,12 +15,7 @@ class Connect {
    */
   connect() {
     mongoose.connect(
-      `mongodb://${process.env.MONGO_HOST}:${process.env.MONGO_PORT}`,
-      {
-        user: process.env.MONGO_USER,
-        pass: process.env.MONGO_PASS,
-        dbName: process.env.MONGO_COLLECTION,
-      },
+      `mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PASS}@cluster0.mkqdf.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`,
       (err) => {
         if (err) {
           throw new DatabaseError(err);

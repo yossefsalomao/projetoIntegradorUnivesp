@@ -13,12 +13,14 @@ const SignatureSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  phoneNumber: [
-    {
-      type: String,
-      required: true,
-    },
-  ],
+  enterprise: {
+    type: String,
+    required: true,
+  },
+  phoneNumber: {
+    type: String,
+    required: true,
+  },
   email: {
     type: String,
     required: false,
@@ -26,6 +28,10 @@ const SignatureSchema = new mongoose.Schema({
   site: {
     type: String,
     required: false,
+  },
+  term: {
+    type: Boolean,
+    required: true,
   },
 });
 

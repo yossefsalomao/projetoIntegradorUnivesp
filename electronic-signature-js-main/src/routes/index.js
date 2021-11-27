@@ -1,4 +1,5 @@
 import express from "express";
+import path from "path";
 
 import http from "../enums/httpStatus.js";
 import signatureRouter from "./SignatureRoute.js";
@@ -33,7 +34,10 @@ class Router {
           repository_url: process.env.npm_package_repository_url,
         });
       })
-      .use("/signature", signatureRouter);
+      .use("/signature", signatureRouter)
+      .get("/", (req, res) => {
+        res.sendFile(path.resolve("./public/html/index.html"));
+      });
   }
 }
 
