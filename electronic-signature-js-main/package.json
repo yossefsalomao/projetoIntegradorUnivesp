@@ -1,0 +1,30 @@
+{
+  "name": "electronic-signature",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ImOhashi/electronic-signature-js.git"
+  },
+  "keywords": [],
+  "author": "Grupo Univesp - Projeto Integrador",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ImOhashi/electronic-signature-js/issues"
+  },
+  "homepage": "https://github.com/ImOhashi/electronic-signature-js#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.12"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
