@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html, body{
+    height: 100%;
+}
+.head{
+    width: 100%;
+    height: 60px;
+}
+
+.menu{
+    float: right;
+    margin: 40px 80px 6px 0px;
+}
+.lista{
+    margin: auto 0px;
+    width: 400px;
+    height: 50px;
+}
+.alin{
+    float: left;
+    margin-left: 100px;
+}
+#submit{
+    margin-left: 150px;
+    height: 30px;
+    width: 100px;
+    background-color: rgb(188, 197, 191);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.alin p{
+    font-size: 20px;
+}
+input{
+    border-radius: 5px;
+    font-size: 20px;
+    height: 50px;
+    width: 400px;
+}
+.box1{
+    float: right;
+    margin: 30px 70px 0px 0px;
+    width: 300px;
+    height: 500px;
+    border: solid 2px rgb(192, 192, 192);
+    border-radius: 10px;
+    background-color: rgb(37, 37, 37);
+}
+.box2{
+    float: right;
+    margin: 30px 70px 0px 0px;
+    width: 300px;
+    height: 500px;
+    border: solid 2px rgb(141, 141, 141);
+    border-radius: 10px;
+    background-color: rgb(209, 209, 209);
+}
+.imge{
+    width: 150px;
+    height: 150px;
+    background-image: url('foto_1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 50px auto;
+}
+.box1 p{
+    color: white;
+    text-align: center;
+}
+.box2 p{
+    text-align: center;
+}
+.textos {
+    margin: 600px 70px 0px 70px;
+    text-align:left;
+}
