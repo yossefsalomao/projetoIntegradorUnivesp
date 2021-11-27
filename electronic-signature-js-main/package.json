@@ -1,7 +1,6 @@
 {
   "name": "electronic-signature",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -11,7 +10,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yossefsalomao/projetoIntegradorUnivesp.git"
-  }, 
+  },
   "keywords": [],
   "author": "Grupo 002 - Projeto Integrador - Univesp",
   "license": "ISC",
@@ -26,5 +25,6 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
-  }
+  },
+  "description": ""
 }
