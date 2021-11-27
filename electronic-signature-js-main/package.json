@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ImOhashi/electronic-signature-js.git"
-  },
+    "url": "git+https://github.com/yossefsalomao/projetoIntegradorUnivesp.git"
+  }, 
   "keywords": [],
-  "author": "Leonardo Ohashi (ImOhashi)",
+  "author": "Grupo 002 - Projeto Integrador - Univesp",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ImOhashi/electronic-signature-js/issues"
+    "url": "https://github.com/yossefsalomao/projetoIntegradorUnivesp/issues"
   },
-  "homepage": "https://github.com/ImOhashi/electronic-signature-js#readme",
+  "homepage": "https://github.com/yossefsalomao/projetoIntegradorUnivesp#readme",
   "dependencies": {
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
