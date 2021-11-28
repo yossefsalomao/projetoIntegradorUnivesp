@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Assinatura Eletronica</title>
+</head>
+<body>
+    <header>
+        <div class="head">
+            <img src="logo.png">
+            <i>Crie gratuitamente a sua assinatura de e-mail de forma rápida e fácil.</i>
+            <nav class="menu">
+                <a href="#anchor1">Como utilizar</a>
+                <a href="#anchor2">Sobre</a>
+            </nav>
+        </div>
+     </header>
+    <div class="mt-3">
+        <!--Forms que vai receber os dados do usuario-->
+        <form class="alin">
+            <p> Personalize sua Assinatura Eletronica</p>
+            <div class="lista">
+                <input type="text" required id="url" class="form-control mt-3" placeholder="URL da Imagem"> <br>
+            </div>
+
+            <div class="lista">
+                <input type="text" required id="name" class="form-control mt-3" placeholder="Nome e Sobrenome"> <br>
+            </div>
+
+            <div class="lista">
+                <input type="text" required id="cargo" class="form-control mt-3" placeholder="Cargo"> <br>
+            </div>
+
+            <div class="lista">
+                <input type="text" required id="empresa" class="form-control mt-3" placeholder="Nome da Empresa"> <br>
+            </div>
+
+            <div class="lista">
+                <input type="tel" requiredd id="tel" class="form-control mt-3" placeholder="DDD + Telefone"> <br>
+            </div>
+
+            <div class="lista">
+                <input type="email" required id="email" class="form-control mt-3" placeholder="E-mail"> <br>
+            </div>
+            <div class="lista">
+                <input type="text" id="site" class="form-control mt-3" placeholder="Site (Opcional)"> <br>
+            </div>
+            <div>
+                <input required id="check" type="checkbox">
+                <label style="font-size: 12px;">Estou de acordo em fornecer minhas informações e ciente de que poderão ser usadas para melhoria interna.</label>
+            </div>
+            <button id="submit" class="botao">Gerar</button>
+            <script src="./main.js"></script>
+        </form>
+    </div>
+    <div class="box">
+        <!--Caixa de exemplo da assinatura-->
+        <div class="imge"></div>
+        <div class="container">
+            <table class="color1">
+                <tr>
+                <th>Nome e Sobrenome</th>
+                </tr>
+                <tr>
+                <th>Cargo</th>
+                </tr>
+                <tr>
+                <th>Nome da empresa</th>
+                </tr>
+                <tr>
+                <th>Telefone</th>
+                </tr>
+                <tr>
+                <th>E-mail</th>
+                </tr>
+                <tr>
+                <th>Site</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="textos">
+    <p>
+        <b id="anchor1">COMO GERAR SUA ASSINATURA ELETRÔNICA PARA E-MAIL</b> <br>
+        <b>Importante:</b> Para a URL da imagem, clique com o botão direito na imagem e clique em <b>Copiar endereço da imagem.</b> <br>
+        Passo 1: Entre com suas informações e confira se elas estão corretas. <br>
+        Passo 2: Clique no botão Gerar. <br>
+        Passo 3: Após clicar no botão, um arquivo HTML será baixado; clique duas vezes nele para abri-lo.<br>
+        Passo 4: Aperte Ctrl+A para selecionar sua assinatura e a copie, usando o comando Ctrl+C; você poderá, se preferir, salvar sua assinatura em um arquivo do Word em vez de HTML.<br>
+        Passo 5: Com sua assinatura copiada, você poderá colá-la diretamente no corpo do e-mail ou, ainda, poderá configurá-la em seu e-mail usual (gmail, outlook, entre outros). <br>
+        <br>
+        <b>COMO CONFIGURAR SUA ASSINATURA ELETRÔNICA NO GMAIL OU NO OUTLOOK</b> <br> 
+        <b>Configurando sua assinatura no Gmail:</b> <br>
+        Abra seu Gmail. <br> 
+        Clique na <span>&#9881;</span>(Configurações). <br> 
+        Clique em ver todas as configurações. <br> 
+        Na aba geral, role até chegar ao campo Assinatura e clique em Criar Nova. <br>
+        Dê um nome para sua assinatura. <br>
+        Ao lado do nome de sua assinatura, terá um campo onde você deverá colar sua assinatura eletrônica.  <br>
+        Após esta inserção, role a página até o final e clique em Salvar Alterações.<br> 
+        Com isso feito, você poderá normalmente redigir sua mensagem em seu e-mail e, ao finalizá-la, bastará clicar no botão da caneta para aparecer sua assinatura no encerramento da mensagem do e-mail. <br>
+        <br>
+        <b>Configurando sua assinatura no Outlook:</b> <br>
+        Abra seu Outlook. <br> 
+        Clique na <span>&#9881;</span>(Configurações). <br> 
+        Um campo de pesquisa irá aparecer, digite nele Assinatura; em seguida, ele te mostrará a opção Assinatura de E-mail, clique nela. <br>
+        Na sequência, será aberta a janela com o campo, em que você irá colar sua assinatura; você poderá selecioná-la sempre que enviar um e-mail, a fim de anexar sua assinatura eletrônica ao final de cada mensagem do e-mail.<br>
+        Clique em Salvar. <br>
+        Caso prefira, selecionar quando sua assinatura deverá ser incluída; ao enviar um e-mail, clique nos <b>...</b> <br> 
+        Clique em Inserir Assinatura. <br>
+        <br>
+        <b id="anchor2">SOBRE A ASSINATURA ELETRÔNICA PARA E-MAIL</b><br>
+        <br>
+        <b>O que é a assinatura eletrônica para e-mail profissional?</b>  <br>
+        A assinatura eletrônica é um recurso, usado pelas empresas e profissionais de modo geral, para comprovação de autoria e da integridade empregada no meio virtual, como, 	no caso, o e-mail. Além disso, é uma forma de personalizar as mensagens da empresa, tornando-as mais profissionais. <br>
+        <br>
+        <b>Porque é importante ter uma assinatura de e-mail profissional?</b> <br>
+        Hoje a seriedade em uma empresa é fundamental, e essa é uma das palavras fortes para o mundo dos negócios. Uma assinatura eletrônica de e-mail profissional transmite seriedade na sua comunicação. Outro ponto importante é a padronização visual que sua comunicação terá, dando mais credibilidade para o seu negócio.<br>
+        <br>
+        <b> O que é preciso incluir na assinatura eletrônica de e-mail para ser funcional?</b> <br>
+        É preciso incluir dados básicos, como nome, cargo ou função, telefones, e-mail corporativo, nome da empresa, logo ou foto, entre outros, e sempre atualizá-los. Isso é fundamental, pois são eles que irão compor a base da assinatura eletrônica de e-mail. <br>
+        <br>
+        <b>Por que é fundamental entender sua assinatura eletrônica de e-mail como oportunidade de negócios?</b> <br>
+        Uma assinatura eletrônica de e-mail profissional pode trazer diversas oportunidades reais para o seu empreendimento, pois pode aumentar o tráfego para seu site, além de impulsionar o branding, ou seja, favorece a gestão da marca da empresa. E, nesse caso, de forma gratuita. <br>
+        <br>
+        <b>Por que é muito importante que a assinatura eletrônica de e-mail seja responsiva?</b> <br>
+        O conceito de responsivo é sobre algo que oferece resposta diante de algum ato ou estímulo. Por exemplo, no caso de se usar os smartphones, é necessário que a assinatura eletrônica responda à diminuição de tela, quando o e-mail for lido no celular, e não em tela de um notebook ou computador. A assinatura precisa, então, ser construída de um modo que se consiga adaptá-la a qualquer tela em que aparecer, sem sofrer nenhuma mudança que atrapalhe sua leitura, ou até mesmo faça com que ela não apareça ao final do e-mail. <br>
+        <br>
+        <img src="email.png" style=" margin: 0px 0px 0px 350px" alt="">
+        <br>
+        <br>
+    </p>
+    </div>
+</body>
+</html>

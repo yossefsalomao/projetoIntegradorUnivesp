@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html, body{
+    height: 100%;
+}
+.head{
+    display: inline;
+}
+.head img{
+    margin: 5px 0px 0px 660px;
+    display: inline-block;
+}
+.head nav{
+    float: right;
+    margin: -10px 80px 0px 0px;
+}
+.head i{
+    margin: 0px 0px 0px 520px;
+    display: inline-block;
+    font-size: 13px;
+}
+.lista{
+    margin: auto 0px;
+    width: 550px;
+    height: 46px;
+}
+.alin{
+    float: left;
+    margin-left: 100px;
+}
+.alin p{
+    font-size: 20px;
+}
+input{
+    border-radius: 5px;
+    font-size: 20px;
+    height: 50px;
+    width: 400px;
+}
+.botao{
+    margin-top: 10px;
+    margin-left: 200px;
+    height: 30px;
+    width: 100px;
+    background-color: rgb(188, 197, 191);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.box{
+    float: right;
+    width: 500px;
+    height: 250px;
+    margin-right: 50px;
+    margin-top: 150px;
+    border: solid 2px rgb(192, 192, 192);
+    border-radius: 10px;
+    background-color: rgb(248, 248, 248);
+}
+.imge{
+    width: 150px;
+    height: 150px;
+    background-image: url('foto_1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 50px auto;
+    margin-right: 320px;
+}
+.textos {
+    margin: 600px 70px 0px 70px;
+    text-align:left;
+}
+table{
+    margin: 75px 100px 0px 0px; /**/
+    float: right;
+    display: inline;
+    text-align: justify;
+}
+.container table{
+    margin: -200px 150px 0px 0px;
+}
+.alin input[type="checkbox"]{
+    margin-top: 2px;
+    width: 20px;
+    height: 20px;
+    vertical-align:middle;
+}
