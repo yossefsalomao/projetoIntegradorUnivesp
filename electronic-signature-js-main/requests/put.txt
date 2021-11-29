@@ -1,0 +1,12 @@
+curl --location --request PUT 'http://localhost:3000/signature/61a269eb0f6a4867681de8eb' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "url": "yossef.com",
+    "fullname": "yossef",
+    "teamOrPosition": "etl",
+    "enterprise": "Google",
+    "phoneNumber": "12345678",
+    "email": "teste@teste",
+    "site": "teste",
+    "term": true
+}'

@@ -10,16 +10,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yossefsalomao/projetoIntegradorUnivesp.git"
+    "url": "git+https://github.com/ImOhashi/electronic-signature-js.git"
   },
   "keywords": [],
-  "author": "Projeto Integrador (Grupo 002)",
+  "author": "Leonardo Ohashi (ImOhashi)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/yossefsalomao/projetoIntegradorUnivesp/issues"
+    "url": "https://github.com/ImOhashi/electronic-signature-js/issues"
   },
-  "homepage": "https://github.com/yossefsalomao/projetoIntegradorUnivesp#readme",
+  "homepage": "https://github.com/ImOhashi/electronic-signature-js#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "mongoose": "^6.0.12"

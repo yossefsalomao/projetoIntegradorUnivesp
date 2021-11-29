@@ -1,6 +1,7 @@
 import express from "express";
 import dotenv from "dotenv";
 import path from "path";
+import cors from "cors";
 
 import database from "./database/Connect.js";
 import router from "./routes/index.js";
@@ -31,6 +32,7 @@ class App {
    * @returns {void}
    */
   middlewares() {
+    this.app.use(cors());
     this.app.use(express.json({ limit: "50mb" }));
     this.app.use(
       express.urlencoded({

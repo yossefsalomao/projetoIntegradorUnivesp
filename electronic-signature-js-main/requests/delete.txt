@@ -1,0 +1,1 @@
+curl --location --request DELETE 'http://localhost:3000/signature/61a26550db1784601a97c5e1'
